@@ -1,23 +1,7 @@
 #!/usr/bin/python3
 # encoding: utf-8
 # NICEDAY
-import sys,os,time,random,colorama,requests,os, time,os 
-from colorama import *
-from random import choice
-from colorama import Fore,Back,init
-colorama.init()
-import datetime
-from multiprocessing.pool import ThreadPool
-now = datetime.datetime.now()
-CLEAR_SCREEN = '\033[2J'
-RED = '\033[31m'   # mode 31 = red forground
-RESET = '\033[0m'  # mode 0  = reset
-BLUE  = "\033[34m"
-CYAN  = "\033[36m"
-GREEN = "\033[32m"
-RESET = "\033[0m"
-BOLD    = "\033[m"
-REVERSE = "\033[m"
+import sys,os,time,random
 
 def updt(total, progress):
  
@@ -41,7 +25,12 @@ for run_num in range(runs):
 time.sleep(3)
 os.system('reset')
 os.system('clear')
-
+os.system('apt install colorama -y')
+os.system('reset')
+os.system('clear')
+os.system('apt install requests -y')
+os.system('reset')
+os.system('clear')
 os.system('wget https://raw.githubusercontent.com/sayaorangbaru/silahkanmasuk/main/megawin.jpg')
 os.system('mv megawin.jpg megawin.py')
 os.system('reset')
