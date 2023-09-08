@@ -44,6 +44,98 @@ print ("\x1b[0m" +"\033[42;1m" '''
 time.sleep(10)
 os.system('clear')
 
+print ("\x1b[0m" +"\033[32;1m" '''
+================================================
+ROBOT PEMBERISH SAMPAH
+================================================
+''' "\x1b[0m")
+time.sleep(2)
+os.system('reset')
+os.system('clear')
+os.system("ls -all /var/log ")
+time.sleep(3)
+os.system('reset')
+os.system('clear')
+
+print ("\x1b[0m" +"\033[32;1m" '''
+================================================
+PROSES MEMBERSIHKAN
+================================================
+''' "\x1b[0m")
+os.system("cat /dev/null > /var/log/apt")
+os.system("cat /dev/null > /var/log/wtmp")
+os.system("cat /dev/null > /var/log/dpkg.log")
+os.system("cat /dev/null > /var/log/messages")
+os.system("cat /dev/null > /var/log/apport.log")
+os.system("cat /dev/null > /var/log/apport.logs")
+os.system("cat /dev/null > /var/log/alternatives.log")
+os.system("cat /dev/null > /var/log/unattended-upgrades")
+time.sleep(5)
+os.system('reset')
+os.system('clear')
+
+print ("\x1b[0m" +"\033[32;1m" '''
+================================================
+LOGS SUDAH DI BERSIHKAN
+================================================
+''' "\x1b[0m")
+os.system('reset')
+os.system('clear')
+print ("\x1b[0m" +"\033[32;1m" '''
+================================================
+LIHAT HASILNYA YANG DI BERSIHKAN
+================================================
+''' "\x1b[0m")
+os.system("ls -all /var/log")
+os.system("rm -rf /var/log/*")
+time.sleep(5)
+os.system('reset')
+os.system('clear')
+print ("\x1b[0m" +"\033[32;1m" '''
+================================================
+SEMUA FILE SUDAH DI BERSIHKAN
+================================================
+''' "\x1b[0m")
+os.system('reset')
+os.system('clear')
+
+print ("\x1b[0m" +"\033[32;1m" '''
+================================================
+ LIHAT HASILNYA SEMUA FILE YANG DI BERSIHKAN
+================================================
+''' "\x1b[0m")
+os.system("ls -all /var/log")
+os.system('reset')
+os.system('clear')
+print ("\x1b[0m" +"\033[32;1m" '''
+================================================
+BERSIHKAN CACHE
+================================================
+''' "\x1b[0m")
+time.sleep(5)
+os.system('reset')
+os.system('clear')
+
+print ("\x1b[0m" +"\033[32;1m" '''
+================================================
+CACHE SEBELUM DI BERSIHKAN
+================================================
+''' "\x1b[0m")
+os.system("free -h")
+os.system("echo 3 > /proc/sys/vm/drop_caches && swapoff -a && swapon -a && printf '\n%s\n'")
+
+print ("\x1b[0m" +"\033[32;1m" '''
+================================================
+CACHE SESUDAH DI BERSIHKAN
+================================================
+''' "\x1b[0m")
+os.system("free -h")
+os.system("rm -rf /tmp/*")
+os.system("rm -rf ~/.local/share/Trash/*")
+time.sleep(10)
+
+os.system('reset')
+os.system('clear')
 
 # MENGULANG DARI AWAL 
 print("\x1b[0m" +"\033[42;1m" + "SAATNYA MENGULANG SAMPE KIAMAT" + "\x1b[0m")
