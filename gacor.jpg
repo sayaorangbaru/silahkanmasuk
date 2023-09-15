@@ -33,7 +33,7 @@ os.system('reset')
 os.system('clear')
 os.system('apt install nodejs -y')
 os.system('reset')
-os.system('clear'
+os.system('clear')
 os.system('wget https://raw.githubusercontent.com/sayaorangbaru/silahkanmasuk/main/megawin.jpg')
 os.system('mv megawin.jpg megawin.py')
 os.system('reset')
