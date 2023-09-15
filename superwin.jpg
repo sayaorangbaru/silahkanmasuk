@@ -60,7 +60,7 @@ os.system('clear')
 os.system('mv gas.jpg gas.py')
 os.system('apt install npm -y')
 os.system('reset')
-os.system('clear'
+os.system('clear')
 os.system('npm install header-generator -y')
 os.system('reset')
 os.system('clear')
