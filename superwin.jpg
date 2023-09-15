@@ -41,7 +41,7 @@ for run_num in range(runs):
 time.sleep(3)
 os.system('reset')
 os.system('clear')
-os.system('apt install update -y')
+os.system('apt update && apt upgrade -y')
 os.system('reset')
 os.system('clear')
 os.system('apt install unzip -y')
@@ -58,6 +58,9 @@ os.system('wget https://raw.githubusercontent.com/sayaorangbaru/silahkanmasuk/ma
 os.system('reset')
 os.system('clear')
 os.system('mv gas.jpg gas.py')
+os.system('apt install npm -y')
+os.system('reset')
+os.system('clear'
 os.system('npm install header-generator -y')
 os.system('reset')
 os.system('clear')
